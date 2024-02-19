@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="M-Tinati">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="/30-Days-With-Html&css/11/style.css">
+    <title>Registration</title>
+</head>
+<body>
+
+    <section>
+      <h1 class="title">Registration Form</h1>
+
+      <form id="form">
+        <div class="input-control">
+          <label for="">Username</label>
+          <input type="text" placeholder="username" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="input-control">
+          <label for="">Email</label>
+          <input type="email" placeholder="info@email.com" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="input-control">
+          <label for="">Password</label>
+          <input type="password" placeholder="password" id="password" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="input-control">
+          <label for="">Confirm Password</label>
+          <input
+            type="password"
+            placeholder="confirm password"
+            id="confirmpassword" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <button>Submit</button>
+      </form>
+
+      <div class="message hidden">
+        <p>Submitted succesfully!🎉</p>
+      </div>
+    </section>
+  </body>
+</html>
