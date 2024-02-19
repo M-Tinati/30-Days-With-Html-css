@@ -1,3 +1,6 @@
-made by M-Tinati (github : https://github.com/M-Tinati/M-Tinati) 
-prodoct page
-<video src="Recording 2024-02-19111754.mp4"></video>
+
+
+<video width="320" height="240" autoplay>
+  <source src="Recording 2024-02-19 111754.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
